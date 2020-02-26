@@ -153,7 +153,7 @@ h2 {
   text-align: center;
   border-bottom: 1px solid grey;
   padding-bottom: 20px;
-  margin: 0 1%;
+  margin: 0 1% 40px;
 }
 
 .col-3 {
@@ -188,4 +188,33 @@ h2 {
 
 .col-text {
   line-height: 160%;
+}
+
+/* Sezione 2 */
+.second-section {
+  margin: 0 50px;
+}
+#img-big {
+  height: 400px;
+}
+
+.second-title,
+.second-text,
+.second-link {
+  padding-left: 50px;
+}
+
+.second-title {
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+
+.second-text {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.second-link {
+  color: #5c8abf;
 }
