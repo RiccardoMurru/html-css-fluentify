@@ -192,8 +192,9 @@ h2 {
 
 /* Sezione 2 */
 .second-section {
-  margin: 0 50px;
+  margin: 0 50px 100px;
 }
+
 #img-big {
   height: 400px;
 }
@@ -217,4 +218,56 @@ h2 {
 
 .second-link {
   color: #5c8abf;
+}
+
+/* Sezione struttura piano */
+.third-section {
+  height: 200px;
+  background: lightgrey;
+  padding: 80px 0 80px;
+}
+
+.third-section h2 {
+  font-size: 200%;
+}
+
+.right {
+  text-align: right;
+}
+
+.right h3,
+.right span {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.fa-sort-down {
+  position: relative;
+  font-size: 20px;
+  padding: 0 0 0 50px;
+}
+
+.fa-sort-down::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 210%;
+  background: grey;
+  height: 1px;
+}
+
+/* Help */
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 17%;
+  background: #7bbb01;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.help a {
+  text-decoration: none;
+  color: #fff;
 }
