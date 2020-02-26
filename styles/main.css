@@ -1,4 +1,131 @@
+/* Generali */
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Utilities */
+.float {
+  float: left;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.wd50 {
+  width: 50%;
+}
+
+.btn {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  padding: 5px 20px;
+}
+
+.btn-small {
+  padding: 10px 10px;
+}
+
+.btn-large {
+  padding: 20px;
+}
+
+.btn-green {
+  background-color: #7bbb01;
+  border: 1px solid #7bbb01;
+}
+
+/* Header */
+.main-header {
+  height: 500px;
+  background: #0c325a;
+  background-image: url('../img/background-header.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 140% 120%;
+
+}
+
+.logo {
+  width: 10%;
+  margin-top: 15px;
+}
+
+.menu {
+  height: 100px;
+  line-height: 110%;
+  margin-top: 20px;
+}
+.nav-menu-ctr {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.nav-menu-r {
+  width: 40%;
+  text-align: right;
+}
+
+.nav-menu-ctr li,
+.nav-menu-r li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 70%;
+  padding: 0 5px;
+}
+
+.nav-menu-ctr a,
+.nav-menu-r a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hover menu */
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  transition: 1s;
+  color: #d4c937;
+}
+
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 500px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+}
+
+.hero h1 {
+  font-size: 280%;
+  color: #fff;
+  margin-bottom: 30px;
 }
